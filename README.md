@@ -6,7 +6,9 @@ and to generate new hashes that can be used with phpass.
 
 ## Installation ##
 
-TODO
+Use NPM to install:
+
+    npm install phpass
 
 ## Usage ##
 
