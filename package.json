@@ -1,0 +1,12 @@
+{
+  "name": "phpass",
+  "description": "A pure node.js JavaScript port of the portable PHP password hashing framework.",
+  "version": "0.1.0",
+  "author": "John Hurliman <jhurliman@cull.tv>",
+  "contributors": [],
+  "dependencies": {},
+  "keywords": ["auth", "password", "hashing", "blowfish", "phpass"],
+  "directories": { "lib": "./lib" },
+  "main": "index",
+  "engines": { "node": "*" }
+}
