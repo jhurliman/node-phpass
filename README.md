@@ -10,11 +10,11 @@ TODO
 
 ## Usage ##
 
-  var PasswordHash = require('phpass').PasswordHash;
-  var passwordHash = new PasswordHash();
-  var password = 'abc123';
-  var hash = passwordHash.hashPassword(password);
-  var success = passwordHash.checkPassword(password, hash);
+    var PasswordHash = require('phpass').PasswordHash;
+    var passwordHash = new PasswordHash();
+    var password = 'abc123';
+    var hash = passwordHash.hashPassword(password);
+    var success = passwordHash.checkPassword(password, hash);
 
 ## Sponsors ##
 
