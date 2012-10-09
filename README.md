@@ -22,6 +22,12 @@ Use NPM to install:
 
 * [cull.tv](http://cull.tv/) - New music television
 
+## Changelog ##
+
+**0.1.1** - Fixed a crash when initializing PasswordHash with no parameters
+
+**0.1.0** - Initial release
+
 ## License ##
 
 Uses code from the [jsBCrypt](http://code.google.com/p/javascript-bcrypt/) 
