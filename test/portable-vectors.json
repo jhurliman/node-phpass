@@ -1,0 +1,50 @@
+[
+  {
+    "password": "",
+    "hash": "$P$512345678YsQn8dJMnXIqYTKyUqL7q1"
+  },
+  {
+    "password": "",
+    "hash": "$P$B12345678TU.B9qZyvZoZmOrvDu6t8."
+  },
+  {
+    "password": "test",
+    "hash": "$P$5123456782Jd0mCwOvdg2EsRtmpU9H1"
+  },
+  {
+    "password": "test",
+    "hash": "$P$B12345678KllW3LfPVOgT2DwfSx0lW0"
+  },
+  {
+    "password": "pässwörd",
+    "hash": "$P$512345678fb8lt/DqcjsCNsHnx6y8D/"
+  },
+  {
+    "password": "pässwörd",
+    "hash": "$P$B123456782zUyhj61U38xYLIOumYrp/"
+  },
+  {
+    "password": "🔑password",
+    "hash": "$P$5123456786qkZsPRL0T5G7Q3VDT4X2/"
+  },
+  {
+    "password": "🔑password",
+    "hash": "$P$B12345678EzSC3l2i0AVdc60qvUQpJ."
+  },
+  {
+    "password": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "hash": "$P$512345678jcmtRYvhBmUweHFOMG8.10"
+  },
+  {
+    "password": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "hash": "$P$B12345678PH6RvDwl0I9wHgSAsBngB0"
+  },
+  {
+    "password": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "hash": "$P$512345678tnzq0Ptitfm3soqBQzH5L."
+  },
+  {
+    "password": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+    "hash": "$P$B12345678BGA2dCwGeB1u0GuWjbyQ7/"
+  }
+]

@@ -1,0 +1,18 @@
+[
+  {
+    "password": "ascii-password",
+    "hash": "$2a$04$9TUFNFYC8iS.6hFaK01qd.CQR09/XA5AwdVeeV6qlA1SKIgrcaYxq"
+  },
+  {
+    "password": "pässwörd",
+    "hash": "$2a$04$g2OWqQCJMWwAaXReZXMZ1OEZomjbUgEBf2QWiXrDi6VLD6yjAiGN2"
+  },
+  {
+    "password": "🔑password",
+    "hash": "$2a$04$dF5fBHM13.F5lu3qr1gVxuUjLV..GgVCr5R1w5thpuT7TlGpp2tcm"
+  },
+  {
+    "password": "密码",
+    "hash": "$2a$04$k9WfUW5XUJNY3erh.kOkIedmTxT1rc2XxdFU0GUgWKYj9Aab4ojHe"
+  }
+]
