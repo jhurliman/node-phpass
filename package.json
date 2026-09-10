@@ -1,12 +1,50 @@
 {
   "name": "phpass",
-  "description": "A pure node.js JavaScript port of the portable PHP password hashing framework.",
-  "version": "0.1.1",
+  "description": "Verify phpass portable hashes and bcrypt passwords in Node.js, with an explicit migration path for legacy node-phpass hashes.",
+  "version": "1.0.0",
   "author": "John Hurliman <jhurliman@cull.tv>",
   "contributors": [],
-  "dependencies": {},
-  "keywords": ["auth", "password", "hashing", "blowfish", "phpass"],
-  "directories": { "lib": "./lib" },
-  "main": "index",
-  "engines": { "node": "*" }
+  "dependencies": {
+    "bcryptjs": "^3.0.3"
+  },
+  "keywords": [
+    "auth",
+    "password",
+    "hashing",
+    "blowfish",
+    "phpass"
+  ],
+  "directories": {
+    "lib": "./lib"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "test": "node --test",
+    "test:coverage": "node --test --experimental-test-coverage",
+    "test:types": "tsc --noEmit --strict --module nodenext --target es2022 type-tests/consumer.mts type-tests/consumer.cts"
+  },
+  "types": "index.d.ts",
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "lib/",
+    "LICENSE",
+    "CHANGELOG.md",
+    "THIRD_PARTY.md"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jhurliman/node-phpass.git"
+  },
+  "bugs": {
+    "url": "https://github.com/jhurliman/node-phpass/issues"
+  },
+  "devDependencies": {
+    "bcrypt": "6.0.0",
+    "typescript": "7.0.2"
+  }
 }
