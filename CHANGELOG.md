@@ -1,6 +1,6 @@
 # Changelog
 
-## 1.0.0 — Unreleased
+## 1.0.0 — 2026-09-10
 
 - Add verification of `$P$` and `$H$` portable hashes (#2), including a worker-backed asynchronous API.
 - Replace normal bcrypt operations with bcrypt.js: cryptographic salts, standard UTF-8, stored-cost verification, and `$2b$` generation.
